@@ -1,0 +1,28 @@
+.nav-footer {
+    display: flex;
+    gap: 15px 40px;
+    align-items: center;
+    font-size: 14px;
+
+    @include mobile {
+        flex-direction: column;
+    }
+}
+
+.nav-footer__item {
+    &:last-child {
+        display: none;
+
+        @include tablet {
+            display: block;
+        }
+    }
+}
+
+a.nav-footer__link {
+    transition: color 0.2s ease-in;
+
+    &:hover {
+        color: #00ae6c;
+    }
+}

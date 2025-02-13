@@ -1,0 +1,77 @@
+.btn {
+    display: inline-block;
+    padding: 9px 19px;
+    border-radius: 80px;
+    border: 1px solid #000;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+
+    transition: background-color 0.2s ease-in;
+}
+
+.btn-dark, a.btn-dark {
+    background-color: #000;
+    
+    &:hover {
+        background-color: #333;
+    }
+}
+
+.btn-green, a.btn-green {
+    border-color: #00AE6C;
+    background-color: #00AE6C;
+
+    &:hover {
+        background-color: #00d382;
+    }
+}
+
+.btn-outline, a.btn-outline {
+    border-color: #fff;
+    color: #fff;
+
+    transition: background-color 0.2s ease-in,
+                color 0.2s ease-in;
+
+    &:hover {
+        color: #000;
+        background-color: #fff;
+    }
+}
+
+.btn-price, a.btn-price {
+    color: #000;
+
+    transition: background-color 0.2s ease-in,
+                color 0.2s ease-in;
+
+    &:hover {
+        color: #fff;
+        background-color: #000;
+    }
+}
+
+.btn-tg, a.btn-tg {
+    display: inline-flex;
+    column-gap: 10px;
+
+    border-color: #039BE5;
+    background-color: #039BE5;
+
+    &:hover {
+        background-color: #34b3f3;
+    }
+}
+
+.btn-whatsapp, a.btn-whatsapp {
+    display: inline-flex;
+    column-gap: 10px;
+
+    border-color: #00AE6C;
+    background-color: #00AE6C;
+
+    &:hover {
+        background-color: #00d382;
+    }
+}
